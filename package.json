@@ -1,5 +1,5 @@
 {
-  "name": "vue-practice",
+  "name": "pixul-fe",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -19,29 +19,29 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.3.3",
     "pinia": "^3.0.4",
-    "vue": "^3.5.40",
-    "vue-router": "^5.2.0"
+    "vue": "^3.5.43",
+    "vue-router": "^5.4.0"
   },
   "devDependencies": {
-    "@playwright/test": "^1.62.1",
-    "@tsconfig/node24": "^24.0.4",
+    "@playwright/test": "^1.64.0",
+    "@tsconfig/node24": "^24.0.5",
     "@types/jsdom": "^28.0.3",
-    "@types/node": "^24.13.3",
-    "@vitejs/plugin-vue": "^6.0.8",
+    "@types/node": "^24.19.2",
+    "@vitejs/plugin-vue": "^6.0.10",
     "@vitejs/plugin-vue-jsx": "^5.1.6",
-    "@vue/test-utils": "^2.4.11",
+    "@vue/test-utils": "^2.5.1",
     "@vue/tsconfig": "^0.9.1",
-    "eslint-plugin-playwright": "^2.11.0",
+    "eslint-plugin-playwright": "^2.12.1",
     "jiti": "^2.7.0",
     "jsdom": "^29.1.1",
     "npm-run-all2": "^8.0.4",
-    "sass-embedded": "^1.100.0",
+    "sass-embedded": "^1.105.1",
     "tailwindcss": "^4.3.3",
     "typescript": "^6.0.3",
     "vite": "npm:@voidzero-dev/vite-plus-core@1.0.0",
     "vite-plugin-vue-devtools": "^8.2.1",
     "vite-plus": "1.0.0",
-    "vue-tsc": "^3.3.9"
+    "vue-tsc": "^3.3.13"
   },
   "overrides": {
     "vite": "npm:@voidzero-dev/vite-plus-core@1.0.0"

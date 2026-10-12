@@ -17,18 +17,21 @@ const { href, type = "button" } = defineProps<LinkItemProps>();
 
 <style scoped lang="scss">
 .link {
-  display: flex;
-  align-items: center;
-  position: relative;
-  height: 100%;
   text-decoration: none;
   color: white;
   transition: 0.4s;
 
+  &.logo {
+    height: 100%;
+    :slotted(img) {
+      height: 100%;
+    }
+  }
+
   &.button {
     border: 1px solid grey;
     border-radius: 0.35rem;
-    padding: 0.5rem;
+    padding: 0.25rem;
   }
 }
 

@@ -4,43 +4,34 @@ import LinkItem from "@/components/navigation/LinkItem.vue";
 
 <template>
   <nav class="navbar top">
-    <LinkItem href="/" type="logo">
-      <img alt="Vue logo" class="logo" src="@/assets/pixul-logo.svg" height="100%" />
-    </LinkItem>
+    <div class="left-group">
+      <LinkItem href="/" type="logo">
+        <img alt="Vue logo" src="@/assets/pixul-logo.svg" />
+      </LinkItem>
 
-    <LinkItem href="/counter">
-      <p>Counter</p>
-    </LinkItem>
+      <LinkItem href="/counter">
+        <p>Counter</p>
+      </LinkItem>
 
-    <LinkItem href="/games">
-      <p>Game List</p>
-    </LinkItem>
+      <LinkItem href="/games">
+        <p>Game List</p>
+      </LinkItem>
 
-    <LinkItem href="/admin/games">
-      <p>Manage Games</p>
-    </LinkItem>
+      <LinkItem href="/admin/games">
+        <p>Manage Games</p>
+      </LinkItem>
+    </div>
   </nav>
 </template>
 
 <style scoped lang="scss">
-nav {
+.navbar {
   height: 100%;
-  display: flex;
-  align-items: center;
-  gap: 0.7rem;
-
-  .splitter {
-    content: "";
-    height: 125%;
-    width: 2px;
-    background-color: #555555;
-  }
 }
 
-.logo {
+.navbar .left-group {
+  height: 100%;
   display: flex;
   align-items: center;
-  height: 100%;
-  gap: 0.5rem;
 }
 </style>
